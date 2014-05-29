@@ -1,11 +1,14 @@
 <?php
 return [
     'routes' => [
-        "/posts" => [
-            'module'     => '\Cept\Blog',
-            'namespace'  => '\Cept\Blog\Controller',
-            'controller' => 'Post',
-            'action'     => 'index',
+        'blog-post' => [            
+            'route' => '/posts',
+            'params' => [
+                'module'     => 'cept-user',
+                'namespace'  => '\Cept\Blog\Controller',
+                'controller' => 'Post',
+                'action'     => 'index',
+            ]
         ]
-    ]
+    ],        
 ];

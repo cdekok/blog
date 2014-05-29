@@ -11,7 +11,7 @@
     "require": {
         "php": ">=5.4.0",
         "ext-phalcon": "1.*",
-        "erusev/parsedown": "1.0.0-rc.4"
+        "erusev/parsedown": "1.*"
     },
     "require-dev": {
         "phpunit/phpunit": "3.*"
